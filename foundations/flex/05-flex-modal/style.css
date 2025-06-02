@@ -21,6 +21,9 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 15px;
+  display: flex;
+  gap:16px;
+  padding: 16px;
 
 }
 
@@ -35,6 +38,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -77,5 +81,11 @@ button.cancel {
 
 .top{
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.text{
+  margin-bottom: 16px;
 }
